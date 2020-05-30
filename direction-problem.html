@@ -214,12 +214,58 @@ p<sub>1</sub><sup>0</sup>, he constructs the square(60% of the smaller rectangle
 possible location of his destination is towards left, and he also decides not to take any more paths
 towards north (N) or east(E), as he needs to equalise his excessive movements towards north hemade while covering the 1<sup>st</sup> rejection square. Now again this square becomes his 2<sup>nd</sup> rejection
             square, we he decides to cover the maximum of it like he did in the 1<sup>st</sup> rejection square.<br><br>
-            So again his path to in the 2 nd rejection square is as</p>
+            So again his path to in the 2<sup>nd</sup> rejection square is as</p>
           
           <center><img src="https://github.com/Srijit641/Pictures/raw/master/direction-problem-4.png"></center>
           
           <p>the direction axes given is the direction axes at the point p<sub>1</sub><sup>0</sup>.</p>
           
+          <p>Similarly, even after performing this for r times he fails to find his destination, his strategy will be the
+same,<br><br>
+            1. Asking questions and assessing his position with respect to the bus stop (initial point) and his
+possible location D.<br>
+2. Dividing his suspected rectangle in a 60-40 proportion, such that the 60% of the rectangle
+always gives him a rejection square, which he covers with a certain suspect probability, such
+that he travels maximum of the rejection square.<br>
+3. If he fails to find his way to his destination from the r<sup>th>/sup> rejection square, and comes to the
+            point p<sub>r</sub><sup>0</sup>, and he do the same again, until he reaches D.</p>
+            
+            <p>So, combining above figures and assuming that our friend will reach D after covering 6
+              rejection square, then our friend’s path may seem like this-</p>
+          
+          <center><img src="https://github.com/Srijit641/Pictures/raw/master/direction-problem-5.png"></center>
+          
+          <p>[In the given figure, the or points where the curve is having tangents are
+p<sub>0</sub><sup>0</sup>, p<sub>1</sub><sup>0</sup>, p<sub>2</sub><sup>0</sup>, p<sub>3</sub><sup>0</sup>, p<sub>4</sub><sup>0</sup>, p<sub>5</sub><sup>0</sup> and p<sub>6</sub><sup>0</sup> and eventually he will find D. ]</p>
+            
+            <p>It’s quite surprising isn’t it?<br><br>
+              The path in which our friend converges towards D is a <b>Logarithmic Spiral</b>!! and also that he will
+              eventually find his destination somewhere in some j<sup>th</sup> rejection square , after meeting and collecting
+information from j-1 strangers.<br><br>
+              <center><b>“If you know, it’s more likely that something may not be there,
+                Then you may often find it there.”</b></center><br><br>
+              Well now happy with a strategy in hand, our friend must keep another thing in his mind(or in hand),
+which he may fall short off if he doesn’t take care of it from the very beginning of his journey. That
+              thing is <b>time</b>.</p>
+          
+          <p>He must even make a strategy how he should spend his time in each rejection square such that he is
+            not late when he actually manages to reach the office.</p>
+          
+          <p>Now he assumes here another thing, that he will have to ask for new information infinite number of
+times. So, if he has k units of time in his hand at the starting of his journey, he needs to partition k in
+infinite number of terms such that the infinite number of terms add up to k. He also notices that
+each rejection square is decreasing in size and hence the time he requires to inspect each rejection
+rectangle decreases as he moves nearer to his destination D, by the property of logarithmic spiral.</p>
+          
+          <p>So he approximates the partition of k into infinite number of terms by a geometric progression of
+            infinite terms,</p>
+          
+          <p>Let he takes a (<k) units of time to cover the 1<sup>st</sup> rejection square and reach p<sub>1</sub><sup>0</sup>. Then he must cover
+        the next rejection square in a.<MATH>{(k-a)<over>k}</MATH> units of time, the next rejection square in a.<MATH>{(k-a)<over>k}</MATH><sup>2</sup>
+        units of time and so on,</p>
+        
+        
+            
           
         </div>
       </div>
