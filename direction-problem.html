@@ -115,10 +115,38 @@ turned right and then left to meet the newspaper vendor, it’s evident that now
 north and his destination is towards north-west (leftward). So in his rectangle he will be at thebottom right corner or vertex, his destination is somewhere in the area enclosed by the two
             opposite adjacent sides from the bottom right corner.</p>
           
-          <img src="https://raw.githubusercontent.com/Srijit641/Pictures/master/direction-problem-1.png">
+          <img src="https://github.com/Srijit641/Pictures/raw/master/direction-problem-1.png">
           
           <p>Above here, is the axes of direction as he drawn on his paper and in the adjacent figure, he denotes
 his present position as p<sub>0</sub><sup>0</sup> (the bottom left vertex of the rectangle) and his possible destination as <b>D</b>.</p>
+          
+          <p>Now he asks a person whom he meets two questions, as follows-<br>
+Q1. In which direction is his destination?<br>
+            If the answer is say towards left, then the 2<sup>nd</sup> question,<br>
+Q2. Is there is nearly 60% chance that my destination is somewhere near me?<br>
+            If the answer is <b>“yes”</b> or <b>“can’t say, I’m not a statistician”</b> or even <b>“no”</b>, he proceeds with his further
+            strategy.</p>
+          
+          <p>Now look carefully if he stands facing north then his left means west, but our friend knows that the
+location is possibly north-west , so to him left means union of north and north-west ( which still
+remains left for our friend), and hence if the person says left our friend is happy to continue, but if
+the first answer is not left he should not trust the stranger and ask again to another one, as he is
+very much certain that the possible direction of his destination have to be leftward from his position
+as he knows the bus stop is now towards his south( as he facing north) and he neither have travelled
+            a long distance from the bus stop yet.</p>
+          
+          <p>Now let’s come to the answer of the second question (Q2), if the answer is “yes” or “can’t say.....”,
+he cuts the rectangle one big and one small such that the bigger rectangle (or in this case a square,
+due to the special kind of the former rectangle) is at least 60% of the former rectangle and the
+smaller rectangle is at most 40% of the former rectangle. Now as he was said that there is 60%
+chance that his destination may ( due to answer “yes”) or may not( due to the answer “ can’t say...”)
+be anywhere near him, he draws the bigger rectangle is towards right or east ( following the axes he
+drawn on the corner of the paper). But still he have some suspect about the information and cannot
+take the risk of avoiding the bigger rectangle completely (let’s call it <b>rejection rectangle (square)</b> ),
+even though from his current state of information its says there is at least 60% of chance, that his
+destination is not anywhere near him. So he decides to cover a part of the rejection square (not the
+whole) without taking any paths towards east or south (just to keep himself psychologically near tohis destinations), hence he will cover maximum area that can be covered within the rejection
+            rectangle not going towards east or south.</p>
         </div>
       </div>
     </div>
