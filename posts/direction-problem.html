@@ -57,11 +57,8 @@
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="post-heading">
-            <h1>Man must explore, and this is exploration at its greatest</h1>
-            <h2 class="subheading">Problems look mighty small from 150 miles up</h2>
-            <span class="meta">Posted by
-              <a href="#">Start Bootstrap</a>
-              on August 24, 2019</span>
+            <h1>Direction Problem</h1>
+            <span class="meta">By Uttaran Chatterjee & Soham Ghosh on 25th May, 2020</span>
           </div>
         </div>
       </div>
@@ -73,42 +70,50 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-          <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
-
-          <p>Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.</p>
-
-          <p>What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.</p>
-
-          <p>A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That's how I felt seeing the Earth for the first time. I could not help but love and cherish her.</p>
-
-          <p>For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.</p>
-
-          <h2 class="section-heading">The Final Frontier</h2>
-
-          <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
-
-          <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
-
-          <blockquote class="blockquote">The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote>
-
-          <p>Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.</p>
-
-          <h2 class="section-heading">Reaching for the Stars</h2>
-
-          <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p>
-
-          <a href="#">
-            <img class="img-fluid" src="img/post-sample-image.jpg" alt="">
-          </a>
-          <span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
-
-          <p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.</p>
-
-          <p>As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.</p>
-
-          <p>Placeholder text by
-            <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by
-            <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>.</p>
+          <p>Developing a search technique (strategy) when you know a possible position of your
+target, and keep on updating your prior information, with respect to your initial point and your
+target’s possible location using some Bayesian approach, and then further calculating the accuracy
+of the process. We tried to present the problem in form of a story so that readers don’t find it that
+            boring to leave it untouched.</p>
+          
+          <h3>So what’s the Problem???</h3>
+          
+            <p>A man seeking a job is going for an interview but he has no idea of the city, he only knows the
+  geographic direction (East, West, North, and South etc.) and he also knows that his office is located
+  in the North-west direction from the bus stop. He was instructed to get off at the bus stand and ask
+  anyone to instruct him further. After getting off at the city bus stand he meets a person and asks him
+  how to get to the office, he says, "Go ahead!! You will find a diversion of four identical roads. There
+  is a beggar sitting in front of one of the four diversions, take that diversion and you will meet an
+              ice-cream seller who will lead you to your destination."</p>
+          
+          <p>But unfortunately, the beggar that day sat in front of a different road (any of the other three roads,
+other than the one the person intended). The stranger following the given instructions takes the
+road where he found the beggar sitting. Hence he might find either a candy seller, a fruit seller or a
+newspaper vendor, but not the ice cream seller. Meeting someone other than the ice cream van will
+make him realise that he is going in the wrong direction, so he stops and again explains the situation
+the one whom he meet, but the ice cream vendor, candy seller, fruit seller or the newspaper man do
+not know each other, so he will ask the possible geographic direction of his destination, without
+taking the risk of being misled further. If he knows that he walked towards north before taking one
+of the diversions and after that he took a right turn and then a left turn to meet newspaper vendor
+(say). Now using the information he gets from the persons he meets and his sense of direction, he
+develops a strategy to reach his destination by finding out an optimal path following which he will
+never be late (assuming that no one misdirects him intentionally). So what can be his strategy and
+            how often do you think his strategy may work?</p>
+          
+          <h3>Let’s think together, what you would have done in such a situation, when you have no smartphone
+            (just for the sake of solving the problem)?</h3>
+          
+          <p>Although our friend is still jobless (may be consequences of unemployment), he is quite smart with
+some knowledge of mathematics and probability). Once misled, he decides not to be misdirected
+again and loose some important time so he starts asking the geographic direction (East, West, North,
+and South etc.). He took out a piece of paper and first drew the axes of direction on a corner of that
+and drew a special kind of rectangle( such that more or less 60% of the rectangle always happens to
+be a square) keeping his possible direction well inside that rectangle and keeping himself as any
+corner or vertex of that rectangle. In this case as he knows that he was facing north before taking
+one of the diversions and after taking the diversion ( where he found the deaf beggar sitting), he
+turned right and then left to meet the newspaper vendor, it’s evident that now he is facing towards
+north and his destination is towards north-west (leftward). So in his rectangle he will be at thebottom right corner or vertex, his destination is somewhere in the area enclosed by the two
+            opposite adjacent sides from the bottom right corner.</p>
         </div>
       </div>
     </div>
